@@ -1,0 +1,7 @@
+<form bindsubmit="formSubmit">
+  <input name='name'/>
+  <input name='phone'/>
+  <input name='email'/>
+  <input name='name'/>
+  <button formType="submit">保存</button>
+</form>
