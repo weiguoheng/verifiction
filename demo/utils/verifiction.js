@@ -39,7 +39,7 @@ module.exports = {
         return true 
       }
     }
-  }
+  },
   // 表单是否完整
   required: function(data){
     for(let key in data){
