@@ -43,6 +43,7 @@ module.exports = {
   // 表单是否完整
   required: function(data){
     for(let key in data){
+      data[key] = data[key].replace(/ /g,'')
       if(!data[key]){
         return false
       }
